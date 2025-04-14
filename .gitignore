@@ -13,4 +13,3 @@ tfplan
 
 # Outros arquivos de log ou temporários
 *.log
-*.tfvars
