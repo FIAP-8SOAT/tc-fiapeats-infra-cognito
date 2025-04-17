@@ -119,7 +119,7 @@ resource "aws_cognito_identity_pool_roles_attachment" "fiapeats_identity_pool_ro
 # Domain
 # ---------------------------
 resource "aws_cognito_user_pool_domain" "fiapeats_domain" {
-  domain       = "fiapeats-auth" 
+  domain       = "fiapeats-auth2" 
   user_pool_id = aws_cognito_user_pool.fiapeats_user_pool.id
 }
 
